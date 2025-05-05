@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kawan Lama Test Suite" time="29.554" tests="3" failures="1" errors="0">
+   <testsuite name="Kawan Lama Test Suite" tests="3" failures="1" errors="0" time="29.554" skipped="0" timestamp="05-05-2025T23:06:16" hostname="KanzlerHund - MSI" id="Test Suites/Kawan Lama Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611"/>
+         <property name="logFiles" value="C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\console0.log, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461203988.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461204394.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461204711.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461205001.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461205312.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461205588.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461205887.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461206179.png"/>
+         <property name="hostName" value="KanzlerHund - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 135.0.7049.116"/>
+         <property name="userFullName" value="F Ok"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="e1eb571de26d942d0908fcdf8696fd4f"/>
+         <property name="projectName" value="katalon-klg"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login" time="9.218" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[05-05-2025T23:06:17 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+05-05-2025T23:06:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T23:06:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T23:06:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T23:06:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T23:06:20 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-05-2025T23:06:23 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-05-2025T23:06:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+05-05-2025T23:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+05-05-2025T23:06:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/a_Login' is clicked on
+
+05-05-2025T23:06:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/a_Login' is clicked on
+
+05-05-2025T23:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username'
+
+05-05-2025T23:06:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username'
+
+05-05-2025T23:06:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password"), findTestData("Credential").getValue(1, 2)): Text ****** has been set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password'
+
+05-05-2025T23:06:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password'
+
+05-05-2025T23:06:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-05-2025T23:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/appointment" time="16.958" classname="Test Cases/appointment" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) link":"https://katalon-demo-cura.herokuapp.com/"}]]></property>
+         </properties>
+         <system-out><![CDATA[05-05-2025T23:06:26 - [TEST_CASE][PASSED] - Test Cases/appointment: Test Cases/appointment
+
+05-05-2025T23:06:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T23:06:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-05-2025T23:06:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T23:06:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T23:06:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T23:06:28 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-05-2025T23:06:31 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-05-2025T23:06:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+05-05-2025T23:06:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+05-05-2025T23:06:31 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login' successfully
+
+05-05-2025T23:06:31 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+05-05-2025T23:06:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+05-05-2025T23:06:31 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+05-05-2025T23:06:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+05-05-2025T23:06:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+05-05-2025T23:06:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+05-05-2025T23:06:33 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-05-2025T23:06:35 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+05-05-2025T23:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+05-05-2025T23:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+05-05-2025T23:06:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/a_Login' is clicked on
+
+05-05-2025T23:06:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/a_Login' is clicked on
+
+05-05-2025T23:06:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username'
+
+05-05-2025T23:06:37 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username'
+
+05-05-2025T23:06:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password"), findTestData("Credential").getValue(1, 2)): Text ****** has been set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password'
+
+05-05-2025T23:06:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password'
+
+05-05-2025T23:06:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-05-2025T23:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_CURA Healthcare Service/button_Login' is clicked on
+
+05-05-2025T23:06:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login' successfully
+
+05-05-2025T23:06:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+05-05-2025T23:06:39 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+05-05-2025T23:06:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+05-05-2025T23:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+05-05-2025T23:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+05-05-2025T23:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+05-05-2025T23:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+05-05-2025T23:06:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date' is clicked on
+
+05-05-2025T23:06:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/td_13")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/td_13' is clicked on
+
+05-05-2025T23:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/td_13' is clicked on
+
+05-05-2025T23:06:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/div_Comment")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/div_Comment' is clicked on
+
+05-05-2025T23:06:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/div_Comment' is clicked on
+
+05-05-2025T23:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/textarea_Comment_comment"), "automation test"): Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+05-05-2025T23:06:42 - [MESSAGE][PASSED] - Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+05-05-2025T23:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+05-05-2025T23:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+05-05-2025T23:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+05-05-2025T23:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout" time="0.619" classname="Test Cases/logout" status="FAILED">
+         <failure type="FAILED" message="Test Cases/logout FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to accept alert&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)&#xa;	at logout.run(logout:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)&#xa;	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	... 23 more&#xa;"/>
+         <system-out><![CDATA[05-05-2025T23:06:45 - [TEST_CASE][FAILED] - Test Cases/logout: Test Cases/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+
+
+05-05-2025T23:06:45 - [TEST_STEP][FAILED] - acceptAlert(): Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+
+05-05-2025T23:06:46 - [MESSAGE][FAILED] - No alert found (Root cause: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461205887.png]]
+
+05-05-2025T23:06:46 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more
+)
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250505_230611\\Kawan Lama Test Suite\\20250505_230611\\1746461206179.png]]]]></system-out>
+         <system-err><![CDATA[05-05-2025T23:06:45 - [TEST_CASE][FAILED] - Test Cases/logout: Test Cases/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[05-05-2025T23:06:16 - [TEST_SUITE][FAILED] - Kawan Lama Test Suite: Test Cases/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[05-05-2025T23:06:16 - [TEST_SUITE][FAILED] - Kawan Lama Test Suite: Test Cases/logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:80)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1598)
+	at logout.run(logout:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:186)
+	at TempTestSuite1746461171041.run(TempTestSuite1746461171041.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: No alert found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.doCall(AcceptAlertKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword$_acceptAlert_closure1.call(AcceptAlertKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

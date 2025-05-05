@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kawan Lama Test Suite,Chrome 135.0.7049.116,,,05-05-2025 23:06:16,05-05-2025 23:06:46,29.879s,FAILED
+,,,,,,,
+Test Cases/login,Chrome 135.0.7049.116,,,05-05-2025 23:06:17,05-05-2025 23:06:26,9.218s,PASSED
+"openBrowser("""")",Chrome 135.0.7049.116,,,05-05-2025 23:06:18,05-05-2025 23:06:20,2.725s,PASSED
+navigateToUrl(link),Chrome 135.0.7049.116,,,05-05-2025 23:06:20,05-05-2025 23:06:23,2.750s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:23,05-05-2025 23:06:24,0.459s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_CURA Healthcare Service/a_Login""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:24,05-05-2025 23:06:24,0.821s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username""), findTestData(""Credential"").getValue(1, 1))",Chrome 135.0.7049.116,,,05-05-2025 23:06:24,05-05-2025 23:06:25,0.670s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password""), findTestData(""Credential"").getValue(1, 2))",Chrome 135.0.7049.116,,,05-05-2025 23:06:25,05-05-2025 23:06:25,0.366s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Page_CURA Healthcare Service/button_Login""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:25,05-05-2025 23:06:26,0.877s,PASSED
+,,,,,,,
+Test Cases/appointment,Chrome 135.0.7049.116,,,05-05-2025 23:06:26,05-05-2025 23:06:43,16.958s,PASSED
+"DATA BINDING - {""(Default) link"":""https://katalon-demo-cura.herokuapp.com/""}",,,,,,,
+"openBrowser("""")",Chrome 135.0.7049.116,,,05-05-2025 23:06:27,05-05-2025 23:06:28,1.311s,PASSED
+navigateToUrl(link),Chrome 135.0.7049.116,,,05-05-2025 23:06:28,05-05-2025 23:06:31,2.704s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:31,05-05-2025 23:06:31,0.692s,PASSED
+"callTestCase(findTestCase(""login""), [:], STOP_ON_FAILURE)",Chrome 135.0.7049.116,,,05-05-2025 23:06:31,05-05-2025 23:06:38,6.985s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 135.0.7049.116,,,05-05-2025 23:06:38,05-05-2025 23:06:39,1.003s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:39,05-05-2025 23:06:40,0.301s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:40,05-05-2025 23:06:40,0.311s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:40,05-05-2025 23:06:40,0.324s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/td_13""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:40,05-05-2025 23:06:41,0.529s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/div_Comment""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:41,05-05-2025 23:06:41,0.520s,PASSED
+"setText(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/textarea_Comment_comment""), ""automation test"")",Chrome 135.0.7049.116,,,05-05-2025 23:06:41,05-05-2025 23:06:42,0.548s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:42,05-05-2025 23:06:42,0.562s,PASSED
+"click(findTestObject(""Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 135.0.7049.116,,,05-05-2025 23:06:42,05-05-2025 23:06:43,0.996s,PASSED
+,,,,,,,
+Test Cases/logout,Chrome 135.0.7049.116,,,05-05-2025 23:06:45,05-05-2025 23:06:46,0.619s,FAILED
+acceptAlert(),Chrome 135.0.7049.116,,,05-05-2025 23:06:45,05-05-2025 23:06:46,0.603s,FAILED

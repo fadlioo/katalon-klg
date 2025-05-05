@@ -19,23 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.link)
+WebUI.callTestCase(findTestCase('login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
+WebUI.click(findTestObject('Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/a_Login'))
-
-WebUI.setText(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username'), findTestData(
-        'Credential').getValue(1, 1))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password'), 
-    findTestData('Credential').getValue(1, 2))
-
-WebUI.click(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
-
-WebUI.click(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/a_Logout'))
+WebUI.click(findTestObject('Logout/Page_CURA Healthcare Service/a_Logout'))
 
 WebUI.closeBrowser()
 

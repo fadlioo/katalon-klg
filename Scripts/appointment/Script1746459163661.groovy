@@ -23,13 +23,7 @@ WebUI.navigateToUrl(GlobalVariable.link)
 
 WebUI.click(findTestObject('Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username'), findTestData(
-        'Credential').getValue(1, 1))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password'), 
-    findTestData('Credential').getValue(1, 2))
-
-WebUI.click(findTestObject('Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Login'))
+WebUI.callTestCase(findTestCase('login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Appointment Page/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
     'Hongkong CURA Healthcare Center', true)
