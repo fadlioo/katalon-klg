@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kawan Lama Test Suite" time="79.496" tests="6" failures="0" errors="0">
+   <testsuite name="Kawan Lama Test Suite" tests="6" failures="0" errors="0" time="79.496" skipped="0" timestamp="06-05-2025T01:15:06" hostname="KanzlerHund - MSI" id="Test Suites/Kawan Lama Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501"/>
+         <property name="logFiles" value="C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\console0.log, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468918785.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468928171.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468937471.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\appointment detail, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\homepage, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468953174.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\appointment detail, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\homepage, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468968040.png, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\appointment detail, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\homepage, C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468984456.png"/>
+         <property name="hostName" value="KanzlerHund - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 135.0.7049.116"/>
+         <property name="userFullName" value="F Ok"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="87455236eaf9bc5a2ab529c81eb346f6"/>
+         <property name="projectName" value="katalon-klg"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/login - success" time="11.75" classname="Test Cases/login - success" status="PASSED">
+         <system-out><![CDATA[06-05-2025T01:15:07 - [TEST_CASE][PASSED] - Test Cases/login - success: Test Cases/login - success
+
+06-05-2025T01:15:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:15:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:15:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:15:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:15:10 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:14 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/a_Login")): Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_login/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:16 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:16 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:15:16 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Login Page/Page_login/input_Password_password"), findTestData("Credential").getValue(1,**)): Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:16 - [MESSAGE][PASSED] - Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:16 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:15:16 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Login Page/Page_login/p_Login failed Please ensure the username and password are valid"), 0): Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:15:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-05-2025T01:15:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/button_Login")): Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-05-2025T01:15:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468918785.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login - failure" time="9.524" classname="Test Cases/login - failure" status="PASSED">
+         <system-out><![CDATA[06-05-2025T01:15:18 - [TEST_CASE][PASSED] - Test Cases/login - failure: Test Cases/login - failure
+
+06-05-2025T01:15:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:15:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-05-2025T01:15:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:15:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:15:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:15:20 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:24 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/a_Login")): Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_login/input_Username_username"), findTestData("Credential").getValue(1, 3)): Text 'Don Jhon' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:25 - [MESSAGE][PASSED] - Text 'Don Jhon' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:25 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Login Page/Page_login/input_Password_password"), findTestData("Credential").getValue(1,**)): Text '*******' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:26 - [MESSAGE][PASSED] - Text '*******' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:26 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/button_Login")): Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Login Page/Page_login/p_Login failed Please ensure the username and password are valid"), 0, STOP_ON_FAILURE): Object 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' is present
+
+06-05-2025T01:15:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-05-2025T01:15:27 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' is present
+
+06-05-2025T01:15:27 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-05-2025T01:15:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468928171.png]]
+
+06-05-2025T01:15:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-05-2025T01:15:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/appointment - tokyo - medicare" time="15.506" classname="Test Cases/appointment - tokyo - medicare" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) link":"https://katalon-demo-cura.herokuapp.com/"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-05-2025T01:15:28 - [TEST_CASE][PASSED] - Test Cases/appointment - tokyo - medicare: Test Cases/appointment - tokyo - medicare
+
+06-05-2025T01:15:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login - success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:15:28 - [TEST_CASE][PASSED] - Test Cases/login - success: Test Cases/login - success
+
+06-05-2025T01:15:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:15:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:15:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:15:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:15:29 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:33 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:33 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/a_Login")): Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:34 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_login/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:35 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:35 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:15:35 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Login Page/Page_login/input_Password_password"), findTestData("Credential").getValue(1,**)): Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:35 - [MESSAGE][PASSED] - Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:35 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:15:35 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Login Page/Page_login/p_Login failed Please ensure the username and password are valid"), 0): Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:15:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-05-2025T01:15:36 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/button_Login")): Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-05-2025T01:15:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468937471.png]]
+
+06-05-2025T01:15:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:15:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), findTestData("appointment-place").getValue(1, 2), true): All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+06-05-2025T01:15:38 - [MESSAGE][PASSED] - All options with value 'Tokyo CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+06-05-2025T01:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+06-05-2025T01:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+06-05-2025T01:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Medicare_programs")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Medicare_programs' is clicked on
+
+06-05-2025T01:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Medicare_programs' is clicked on
+
+06-05-2025T01:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date' is clicked on
+
+06-05-2025T01:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date' is clicked on
+
+06-05-2025T01:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/td_13")): Object: 'Object Repository/Appointment Page/Page_Appoinment/td_13' is clicked on
+
+06-05-2025T01:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/td_13' is clicked on
+
+06-05-2025T01:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/div_Comment")): Object: 'Object Repository/Appointment Page/Page_Appoinment/div_Comment' is clicked on
+
+06-05-2025T01:15:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/div_Comment' is clicked on
+
+06-05-2025T01:15:40 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Page_Appoinment/textarea_Comment_comment"), "automation test"): Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_Appoinment/textarea_Comment_comment'
+
+06-05-2025T01:15:41 - [MESSAGE][PASSED] - Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_Appoinment/textarea_Comment_comment'
+
+06-05-2025T01:15:41 - [TEST_STEP][PASSED] - takeScreenshot("appointment detail"): Taking screenshot successfully
+
+06-05-2025T01:15:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\appointment detail]]
+
+06-05-2025T01:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/button_Book Appointment")): Object: 'Object Repository/Appointment Page/Page_Appoinment/button_Book Appointment' is clicked on
+
+06-05-2025T01:15:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/button_Book Appointment' is clicked on
+
+06-05-2025T01:15:42 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/a_Go to Homepage")): Object: 'Object Repository/Appointment Page/Page_Appoinment/a_Go to Homepage' is clicked on
+
+06-05-2025T01:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/a_Go to Homepage' is clicked on
+
+06-05-2025T01:15:43 - [TEST_STEP][PASSED] - takeScreenshot("homepage"): Taking screenshot successfully
+
+06-05-2025T01:15:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\homepage]]
+
+06-05-2025T01:15:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-05-2025T01:15:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/appointment - hongkong - medicaid" time="15.97" classname="Test Cases/appointment - hongkong - medicaid" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) link":"https://katalon-demo-cura.herokuapp.com/"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-05-2025T01:15:43 - [TEST_CASE][PASSED] - Test Cases/appointment - hongkong - medicaid: Test Cases/appointment - hongkong - medicaid
+
+06-05-2025T01:15:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login - success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:15:44 - [TEST_CASE][PASSED] - Test Cases/login - success: Test Cases/login - success
+
+06-05-2025T01:15:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:15:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:15:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:15:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:15:45 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:15:49 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/a_Login")): Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:15:50 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_login/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:50 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:15:50 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:15:50 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Login Page/Page_login/input_Password_password"), findTestData("Credential").getValue(1,**)): Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:51 - [MESSAGE][PASSED] - Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:15:51 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:15:51 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Login Page/Page_login/p_Login failed Please ensure the username and password are valid"), 0): Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:15:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-05-2025T01:15:51 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:15:51 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/button_Login")): Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:15:52 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-05-2025T01:15:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468953174.png]]
+
+06-05-2025T01:15:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:15:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), findTestData("appointment-place").getValue(1, 1), true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+06-05-2025T01:15:54 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+06-05-2025T01:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+06-05-2025T01:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+06-05-2025T01:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Medicaid_programs")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Medicaid_programs' is clicked on
+
+06-05-2025T01:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Medicaid_programs' is clicked on
+
+06-05-2025T01:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date' is clicked on
+
+06-05-2025T01:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date' is clicked on
+
+06-05-2025T01:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/td_13")): Object: 'Object Repository/Appointment Page/Page_Appoinment/td_13' is clicked on
+
+06-05-2025T01:15:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/td_13' is clicked on
+
+06-05-2025T01:15:55 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/div_Comment")): Object: 'Object Repository/Appointment Page/Page_Appoinment/div_Comment' is clicked on
+
+06-05-2025T01:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/div_Comment' is clicked on
+
+06-05-2025T01:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Page_Appoinment/textarea_Comment_comment"), "automation test"): Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_Appoinment/textarea_Comment_comment'
+
+06-05-2025T01:15:56 - [MESSAGE][PASSED] - Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_Appoinment/textarea_Comment_comment'
+
+06-05-2025T01:15:56 - [TEST_STEP][PASSED] - takeScreenshot("appointment detail"): Taking screenshot successfully
+
+06-05-2025T01:15:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\appointment detail]]
+
+06-05-2025T01:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/button_Book Appointment")): Object: 'Object Repository/Appointment Page/Page_Appoinment/button_Book Appointment' is clicked on
+
+06-05-2025T01:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/button_Book Appointment' is clicked on
+
+06-05-2025T01:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/a_Go to Homepage")): Object: 'Object Repository/Appointment Page/Page_Appoinment/a_Go to Homepage' is clicked on
+
+06-05-2025T01:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/a_Go to Homepage' is clicked on
+
+06-05-2025T01:15:58 - [TEST_STEP][PASSED] - takeScreenshot("homepage"): Taking screenshot successfully
+
+06-05-2025T01:15:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\homepage]]
+
+06-05-2025T01:15:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-05-2025T01:15:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/appointment - seoul - none" time="14.457" classname="Test Cases/appointment - seoul - none" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) link":"https://katalon-demo-cura.herokuapp.com/"}]]></property>
+         </properties>
+         <system-out><![CDATA[06-05-2025T01:15:59 - [TEST_CASE][PASSED] - Test Cases/appointment - seoul - none: Test Cases/appointment - seoul - none
+
+06-05-2025T01:16:00 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login - success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:16:00 - [TEST_CASE][PASSED] - Test Cases/login - success: Test Cases/login - success
+
+06-05-2025T01:16:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:16:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:16:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:16:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:16:01 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:16:03 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:16:03 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/a_Login")): Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:16:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:16:05 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_login/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:16:05 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:16:05 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:16:05 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Login Page/Page_login/input_Password_password"), findTestData("Credential").getValue(1,**)): Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:16:06 - [MESSAGE][PASSED] - Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:16:06 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:16:06 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Login Page/Page_login/p_Login failed Please ensure the username and password are valid"), 0): Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:16:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-05-2025T01:16:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:16:06 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/button_Login")): Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:16:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-05-2025T01:16:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468968040.png]]
+
+06-05-2025T01:16:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:16:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center"), findTestData("appointment-place").getValue(1, 3), true): All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+06-05-2025T01:16:08 - [MESSAGE][PASSED] - All options with value 'Seoul CURA Healthcare Center' are selected in object 'Object Repository/Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'  using regular expression
+
+06-05-2025T01:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+06-05-2025T01:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+06-05-2025T01:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_None_programs")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_None_programs' is clicked on
+
+06-05-2025T01:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_None_programs' is clicked on
+
+06-05-2025T01:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date")): Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date' is clicked on
+
+06-05-2025T01:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date' is clicked on
+
+06-05-2025T01:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/td_13")): Object: 'Object Repository/Appointment Page/Page_Appoinment/td_13' is clicked on
+
+06-05-2025T01:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/td_13' is clicked on
+
+06-05-2025T01:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/div_Comment")): Object: 'Object Repository/Appointment Page/Page_Appoinment/div_Comment' is clicked on
+
+06-05-2025T01:16:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/div_Comment' is clicked on
+
+06-05-2025T01:16:11 - [TEST_STEP][PASSED] - setText(findTestObject("Appointment Page/Page_Appoinment/textarea_Comment_comment"), "automation test"): Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_Appoinment/textarea_Comment_comment'
+
+06-05-2025T01:16:11 - [MESSAGE][PASSED] - Text 'automation test' is set on object 'Object Repository/Appointment Page/Page_Appoinment/textarea_Comment_comment'
+
+06-05-2025T01:16:11 - [TEST_STEP][PASSED] - takeScreenshot("appointment detail"): Taking screenshot successfully
+
+06-05-2025T01:16:11 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\appointment detail]]
+
+06-05-2025T01:16:11 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/button_Book Appointment")): Object: 'Object Repository/Appointment Page/Page_Appoinment/button_Book Appointment' is clicked on
+
+06-05-2025T01:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/button_Book Appointment' is clicked on
+
+06-05-2025T01:16:12 - [TEST_STEP][PASSED] - click(findTestObject("Appointment Page/Page_Appoinment/a_Go to Homepage")): Object: 'Object Repository/Appointment Page/Page_Appoinment/a_Go to Homepage' is clicked on
+
+06-05-2025T01:16:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Appointment Page/Page_Appoinment/a_Go to Homepage' is clicked on
+
+06-05-2025T01:16:13 - [TEST_STEP][PASSED] - takeScreenshot("homepage"): Taking screenshot successfully
+
+06-05-2025T01:16:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\homepage]]
+
+06-05-2025T01:16:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-05-2025T01:16:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout" time="11.617" classname="Test Cases/logout" status="PASSED">
+         <system-out><![CDATA[06-05-2025T01:16:14 - [TEST_CASE][PASSED] - Test Cases/logout: Test Cases/logout
+
+06-05-2025T01:16:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:16:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:16:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:16:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:16:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("login - success"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:16:15 - [TEST_CASE][PASSED] - Test Cases/login - success: Test Cases/login - success
+
+06-05-2025T01:16:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-05-2025T01:16:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-05-2025T01:16:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-05-2025T01:16:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-05-2025T01:16:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-05-2025T01:16:16 - [TEST_STEP][PASSED] - navigateToUrl(link): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:16:20 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+06-05-2025T01:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:16:20 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/a_Login")): Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/a_Login' is clicked on
+
+06-05-2025T01:16:21 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/Page_login/input_Username_username"), findTestData("Credential").getValue(1, 1)): Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:16:22 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login Page/Page_login/input_Username_username'
+
+06-05-2025T01:16:22 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:16:22 - [TEST_STEP][PASSED] - setMaskedText(findTestObject("Login Page/Page_login/input_Password_password"), findTestData("Credential").getValue(1,**)): Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:16:22 - [MESSAGE][PASSED] - Text '******************' is set on object 'Object Repository/Login Page/Page_login/input_Password_password'
+
+06-05-2025T01:16:22 - [TEST_STEP][PASSED] - assert true: null
+
+06-05-2025T01:16:22 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Login Page/Page_login/p_Login failed Please ensure the username and password are valid"), 0): Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:16:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-05-2025T01:16:23 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Login Page/Page_login/p_Login failed Please ensure the username and password are valid' located by 'By.xpath: //section[@id='login']/div/div/div/p[2]' is not present after '30' second(s)
+
+06-05-2025T01:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/button_Login")): Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/button_Login' is clicked on
+
+06-05-2025T01:16:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+06-05-2025T01:16:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\KanzlerHund\\git\\katalon-klg\\Reports\\20250506_011501\\Kawan Lama Test Suite\\20250506_011501\\1746468984456.png]]
+
+06-05-2025T01:16:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/login - success' successfully
+
+06-05-2025T01:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/Page_login/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/Page_login/i_CURA Healthcare_fa fa-bars' is clicked on
+
+06-05-2025T01:16:24 - [TEST_STEP][PASSED] - click(findTestObject("Logout/Page_sidebar-logout/a_Logout")): Object: 'Object Repository/Logout/Page_sidebar-logout/a_Logout' is clicked on
+
+06-05-2025T01:16:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Logout/Page_sidebar-logout/a_Logout' is clicked on
+
+06-05-2025T01:16:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-05-2025T01:16:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-05-2025T01:15:06 - [TEST_SUITE][PASSED] - Kawan Lama Test Suite: Test Cases/logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -17,13 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
 WebUI.callTestCase(findTestCase('login - success'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Login Page/Page_login/i_CURA Healthcare_fa fa-bars'))
+WebUI.selectOptionByValue(findTestObject('Appointment Page/Page_Appoinment/select_Tokyo CURA Healthcare Center                            Hongkong CURA Healthcare Center                            Seoul CURA Healthcare Center'), 
+    findTestData('appointment-place').getValue(1, 1), true)
 
-WebUI.click(findTestObject('Logout/Page_sidebar-logout/a_Logout'))
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/input_Apply for hospital readmission_hospit_63901f'))
+
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/input_Medicaid_programs'))
+
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/input_Visit Date (Required)_visit_date'))
+
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/td_13'))
+
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/div_Comment'))
+
+WebUI.setText(findTestObject('Appointment Page/Page_Appoinment/textarea_Comment_comment'), 'automation test')
+
+WebUI.takeScreenshot('appointment detail')
+
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/button_Book Appointment'))
+
+WebUI.click(findTestObject('Appointment Page/Page_Appoinment/a_Go to Homepage'))
+
+WebUI.takeScreenshot('homepage')
 
 WebUI.closeBrowser()
 

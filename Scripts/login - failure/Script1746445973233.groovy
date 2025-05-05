@@ -19,11 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.callTestCase(findTestCase('login - success'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl(GlobalVariable.link)
 
 WebUI.click(findTestObject('Login Page/Page_login/i_CURA Healthcare_fa fa-bars'))
 
-WebUI.click(findTestObject('Logout/Page_sidebar-logout/a_Logout'))
+WebUI.click(findTestObject('Login Page/Page_login/a_Login'))
+
+WebUI.setText(findTestObject('Login Page/Page_login/input_Username_username'), findTestData('Credential').getValue(1, 3))
+
+WebUI.setMaskedText(findTestObject('Login Page/Page_login/input_Password_password'), findTestData('Credential').getValue(
+        1, 4))
+
+WebUI.click(findTestObject('Login Page/Page_login/button_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Login Page/Page_login/p_Login failed Please ensure the username and password are valid'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot()
 
 WebUI.closeBrowser()
 

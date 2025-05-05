@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>appointment - tokyo - medicare</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>05c2840c-3a07-4319-9f1e-e5c7c3c58acc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5f6cb88-c928-4dea-8a42-3959f0876224</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>a5f6cb88-c928-4dea-8a42-3959f0876224</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+</TestCaseEntity>

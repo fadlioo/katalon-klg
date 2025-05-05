@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>appointment - seoul - none</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ac8dc24-d70a-469d-b01e-4eccc864b1c8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a8e8344-2111-4565-911f-df52ee7c0f95</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>3a8e8344-2111-4565-911f-df52ee7c0f95</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+</TestCaseEntity>

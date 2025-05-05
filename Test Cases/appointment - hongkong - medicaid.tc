@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>appointment - hongkong - medicaid</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7cdf53a-04bd-4d4e-83eb-31c32faeace1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c9ab4aa-c14e-42d3-b953-a63ec47d3db2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://katalon-demo-cura.herokuapp.com/'</defaultValue>
+      <description></description>
+      <id>9c9ab4aa-c14e-42d3-b953-a63ec47d3db2</id>
+      <masked>false</masked>
+      <name>link</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,6 @@
+{"testCaseName":"Test Cases/login - success","testCaseId":"Test Cases/login - success","iterationVariableName":""}
+{"testCaseName":"Test Cases/login - failure","testCaseId":"Test Cases/login - failure","iterationVariableName":""}
+{"testCaseName":"Test Cases/appointment - tokyo - medicare","testCaseId":"Test Cases/appointment - tokyo - medicare","iterationVariableName":""}
+{"testCaseName":"Test Cases/appointment - hongkong - medicaid","testCaseId":"Test Cases/appointment - hongkong - medicaid","iterationVariableName":""}
+{"testCaseName":"Test Cases/appointment - seoul - none","testCaseId":"Test Cases/appointment - seoul - none","iterationVariableName":""}
+{"testCaseName":"Test Cases/logout","testCaseId":"Test Cases/logout","iterationVariableName":""}
