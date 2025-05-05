@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kawan Lama Test Suite,Chrome 135.0.7049.116,,,05-05-2025 22:39:53,05-05-2025 22:40:08,14.912s,FAILED
+,,,,,,,
+Test Cases/login-logout,Chrome 135.0.7049.116,,,05-05-2025 22:40:01,05-05-2025 22:40:02,1.327s,FAILED
+"openBrowser("""")",Chrome 135.0.7049.116,,,05-05-2025 22:40:01,05-05-2025 22:40:02,1.181s,PASSED
+navigateToUrl(link),Chrome 135.0.7049.116,,,05-05-2025 22:40:02,05-05-2025 22:40:02,0.123s,FAILED
+,,,,,,,
+Test Cases/appointment,Chrome 135.0.7049.116,,,05-05-2025 22:40:07,05-05-2025 22:40:08,1.369s,FAILED
+"DATA BINDING - {""(Default) link"":""https://katalon-demo-cura.herokuapp.com/""}",,,,,,,
+"openBrowser("""")",Chrome 135.0.7049.116,,,05-05-2025 22:40:07,05-05-2025 22:40:08,1.204s,PASSED
+navigateToUrl(link),Chrome 135.0.7049.116,,,05-05-2025 22:40:08,05-05-2025 22:40:08,0.143s,FAILED

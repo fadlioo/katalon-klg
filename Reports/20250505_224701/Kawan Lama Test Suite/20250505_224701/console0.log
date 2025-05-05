@@ -1,0 +1,64 @@
+2025-05-05 22:47:06.456 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Kawan Lama Test Suite
+2025-05-05 22:47:06.578 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = F Ok
+2025-05-05 22:47:06.579 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = katalon-klg
+2025-05-05 22:47:06.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = KanzlerHund - MSI
+2025-05-05 22:47:06.580 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-05-05 22:47:06.581 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.1.8
+2025-05-05 22:47:06.582 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-05 22:47:07.224 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-05 22:47:07.224 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/login-logout
+2025-05-05 22:47:07.794 DEBUG testcase.login-logout                    - 1: openBrowser("")
+2025-05-05 22:47:08.147 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-05 22:47:08.229 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 05, 2025 10:47:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 05, 2025 10:47:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 135.0.7049.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-05 22:47:10.482 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 316bf4e9f4a043a0b92c145bc4610767
+2025-05-05 22:47:10.484 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 135.0.7049.116
+2025-05-05 22:47:10.485 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-05 22:47:10.486 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-05 22:47:10.495 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-05 22:47:10.548 DEBUG testcase.login-logout                    - 2: navigateToUrl(link)
+2025-05-05 22:47:13.296 DEBUG testcase.login-logout                    - 3: click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars"))
+2025-05-05 22:47:13.747 DEBUG testcase.login-logout                    - 4: click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/a_Login"))
+2025-05-05 22:47:14.441 DEBUG testcase.login-logout                    - 5: setText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username"), findTestData("Credential").getValue(1, 1))
+2025-05-05 22:47:15.208 DEBUG testcase.login-logout                    - 6: setEncryptedText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password"), findTestData("Credential").getValue(1, 2))
+2025-05-05 22:47:15.576 DEBUG testcase.login-logout                    - 7: click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/button_Login"))
+2025-05-05 22:47:16.401 DEBUG testcase.login-logout                    - 8: click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars"))
+2025-05-05 22:47:16.973 DEBUG testcase.login-logout                    - 9: click(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/a_Logout"))
+2025-05-05 22:47:17.854 DEBUG testcase.login-logout                    - 10: closeBrowser()
+2025-05-05 22:47:18.036 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/login-logout
+2025-05-05 22:47:18.046 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-05 22:47:18.047 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/appointment
+2025-05-05 22:47:18.072 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) link = https://katalon-demo-cura.herokuapp.com/
+2025-05-05 22:47:18.197 DEBUG testcase.appointment                     - 1: openBrowser("")
+2025-05-05 22:47:18.203 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-05 22:47:18.205 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+May 05, 2025 10:47:19 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 135
+May 05, 2025 10:47:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 135.0.7049.116. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-05 22:47:19.242 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = babc9968efa4d6e7be7ea0a126b78a30
+2025-05-05 22:47:19.243 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 135.0.7049.116
+2025-05-05 22:47:19.244 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-05 22:47:19.244 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-05 22:47:19.244 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-05 22:47:19.271 DEBUG testcase.appointment                     - 2: navigateToUrl(link)
+2025-05-05 22:47:22.043 DEBUG testcase.appointment                     - 3: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Make Appointment"))
+2025-05-05 22:47:22.733 DEBUG testcase.appointment                     - 4: setText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Username_username"), findTestData("Credential").getValue(1, 1))
+2025-05-05 22:47:23.588 DEBUG testcase.appointment                     - 5: setEncryptedText(findTestObject("Object Repository/Login Page/Page_CURA Healthcare Service/input_Password_password"), findTestData("Credential").getValue(1, 2))
+2025-05-05 22:47:23.932 DEBUG testcase.appointment                     - 6: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Login"))
+2025-05-05 22:47:24.780 DEBUG testcase.appointment                     - 7: selectOptionByValue(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true)
+2025-05-05 22:47:25.918 DEBUG testcase.appointment                     - 8: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f"))
+2025-05-05 22:47:26.220 DEBUG testcase.appointment                     - 9: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Medicaid_programs"))
+2025-05-05 22:47:26.546 DEBUG testcase.appointment                     - 10: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date"))
+2025-05-05 22:47:26.884 DEBUG testcase.appointment                     - 11: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/td_13"))
+2025-05-05 22:47:27.467 DEBUG testcase.appointment                     - 12: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/div_Comment"))
+2025-05-05 22:47:28.015 DEBUG testcase.appointment                     - 13: setText(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/textarea_Comment_comment"), "automation test")
+2025-05-05 22:47:28.598 DEBUG testcase.appointment                     - 14: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/button_Book Appointment"))
+2025-05-05 22:47:29.181 DEBUG testcase.appointment                     - 15: click(findTestObject("Object Repository/Appointment Page/Page_CURA Healthcare Service/a_Go to Homepage"))
+2025-05-05 22:47:30.581 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/appointment
+2025-05-05 22:47:30.852 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-05 22:47:30.852 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Kawan Lama Test Suite
+2025-05-05 22:47:30.852 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================
