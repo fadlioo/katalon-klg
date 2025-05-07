@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>API- Create User Negative - Null Input</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>44057a6b-d9a1-4f39-abd7-35def0b00718</testCaseGuid>
+</TestCaseEntity>

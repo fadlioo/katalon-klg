@@ -6127,4 +6127,6 @@ login - success.run(login - success:37)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<!DOCTYPE log SYSTEM "logger.dtd">
 </log>
